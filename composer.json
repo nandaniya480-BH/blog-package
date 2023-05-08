@@ -1,0 +1,22 @@
+{
+    "name": "nandaniya480/blog",
+    "description": "Simple Blog Package",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Nandaniya480\\Blog\\": "packages/nandaniya480-BH/blog-package/src/",
+            "Nandaniya480\\Blog\\Tests\\": "packages/nandaniya480-BH/blog-package/tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Govind Nandaniya"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpunit/phpunit": "^10.2@dev"
+    }
+}
