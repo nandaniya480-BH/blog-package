@@ -36,15 +36,13 @@ class BlogProvider extends ServiceProvider
      */
     protected function registerRoutes()
     {
-        // Route::group($this->routeConfiguration(), function () {
         $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
-        // });
     }
 
     protected function registerPublishing()
     {
         $this->publishes([
-            __DIR__ . '/Console/stubs/PressServiceProvider.stub' => app_path('Providers/PressServiceProvider.php'),
-        ], 'press-provider');
+            __DIR__ . '/Console/stubs/BlogProvider.stub' => app_path('Providers/BlogProvider.php'),
+        ], 'blog-provider');
     }
 }
