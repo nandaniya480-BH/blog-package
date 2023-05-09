@@ -1,13 +1,20 @@
 {
     "name": "nandaniya480/blog",
     "description": "Simple Blog Package",
-    "type": "project",
+    "type": "package",
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Nandaniya480\\Blog\\": "packages/nandaniya480-BH/blog-package/src/",
-            "Nandaniya480\\Blog\\Tests\\": "packages/nandaniya480-BH/blog-package/tests"
+            "Nandaniya480\\Blog\\": "nandaniya480/blog/src",
+            "Nandaniya480\\Blog\\Tests\\": "nandaniya480/blog/tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "nandaniya480\\blog\\Providers\\BlogProvider"
+            ]
         }
     },
     "authors": [
