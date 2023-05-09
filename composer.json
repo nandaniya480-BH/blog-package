@@ -13,7 +13,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "nandaniya480\\blog\\src\\Providers\\BlogProvider"
+                "nandaniya480\\blog\\Providers\\BlogProvider"
             ]
         }
     },
