@@ -6,8 +6,8 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Nandaniya480\\Blog\\": "nandaniya480/blog/src",
-            "Nandaniya480\\Blog\\Tests\\": "nandaniya480/blog/tests"
+            "Nandaniya480\\Blog\\": "nandaniya480/blog/src/",
+            "Nandaniya480\\Blog\\Tests\\": "nandaniya480/blog/tests/"
         }
     },
     "extra": {
