@@ -1,0 +1,25 @@
+<?php
+
+namespace App\Providers;
+
+use Illuminate\Support\ServiceProvider;
+
+class BlogProvider extends ServiceProvider
+{
+    public function boot()
+    {
+        Press::fields($this->registerFields());
+    }
+
+    public function register()
+    {
+        //
+    }
+
+    protected function registerFields()
+    {
+        return [
+            //
+        ];
+    }
+}
