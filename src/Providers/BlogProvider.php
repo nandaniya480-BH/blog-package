@@ -1,6 +1,6 @@
 <?php
 
-namespace Nandaniya480\Blog\Provider;
+namespace Nandaniya480\Blog\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -8,9 +8,8 @@ class BlogProvider extends ServiceProvider
 {
     public function boot()
     {
-
         if ($this->app->runningInConsole()) {
-            //$this->registerPublishing();
+            $this->registerPublishing();
         }
 
         $this->registerResources();
@@ -39,10 +38,10 @@ class BlogProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
     }
 
-//     protected function registerPublishing()
-//     {
-//         $this->publishes([
-//             __DIR__ . '/Console/stubs/BlogProvider.php' => app_path('Providers/BlogProvider.php'),
-//         ], 'blog-provider');
-//     }
+    protected function registerPublishing()
+    {
+        $this->publishes([
+            __DIR__ . '/Console/stubs/BlogProvider.php' => app_path('Providers/BlogProvider.php'),
+        ], 'blog-provider');
+    }
 }
