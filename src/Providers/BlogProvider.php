@@ -1,6 +1,6 @@
 <?php
 
-namespace Nandaniya480\Blog;
+namespace Nandaniya480\Blog\Provider;
 
 use Illuminate\Support\ServiceProvider;
 
