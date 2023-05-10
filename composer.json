@@ -10,13 +10,7 @@
             "Nandaniya480\\Blog\\Tests\\": "nandaniya480/blog/tests/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Nandaniya480\\Blog\\BlogProvider"
-            ]
-        }
-    },
+   
     "authors": [
         {
             "name": "Govind Nandaniya"
