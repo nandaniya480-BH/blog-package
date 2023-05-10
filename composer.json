@@ -7,7 +7,7 @@
         "psr-4": {
             "App\\": "app/",
             "Nandaniya480\\Blog\\": "src/",
-            "Nandaniya480\\Blog\\Tests\\": "nandaniya480/blog/tests/"
+            "Nandaniya480\\Blog\\Tests\\": "tests/"
         }
     },
    "extra": {
