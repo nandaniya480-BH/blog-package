@@ -1,6 +1,6 @@
 <?php
 
-namespace Nandaniya480\Blog\Providers;
+namespace Nandaniya480\Blog;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -42,7 +42,7 @@ class BlogProvider extends ServiceProvider
     protected function registerPublishing()
     {
         $this->publishes([
-            __DIR__ . '/Console/stubs/BlogProvider.stub' => app_path('Providers/BlogProvider.php'),
+            __DIR__ . '/Console/stubs/BlogProvider.php' => app_path('Providers/BlogProvider.php'),
         ], 'blog-provider');
     }
 }
