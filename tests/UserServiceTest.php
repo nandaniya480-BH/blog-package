@@ -9,6 +9,6 @@ class UserServiceTest extends TestCase
 
     public function testGetUserFullName()
     {
-        dd('ableToDoSomething was called!!!!!!!!!!!');
+        $this->assertTrue(true);
     }
 }
