@@ -2,7 +2,7 @@
 
 namespace Nandaniya480\Blog\Tests;
 
-use Orchestra\Testbench\TestCase;
+use PHPUnit\Framework\TestCase;
 
 class BlogTest extends TestCase
 {

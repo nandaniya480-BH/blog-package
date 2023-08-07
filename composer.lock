@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4af26c41ef392e899b4d3ddcc741c69e",
+    "content-hash": "c42f5fdd494ee69991d3b67ca4b5c92a",
     "packages": [],
     "packages-dev": [
         {
@@ -2164,22 +2164,22 @@
         },
         {
             "name": "orchestra/testbench",
-            "version": "v8.5.2",
+            "version": "v8.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench.git",
-                "reference": "d9198ee04f5fa8a14c47ccc5c01599477e9053e9"
+                "reference": "f319dc0f866fcedde621e1150485d4e40516e88d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/d9198ee04f5fa8a14c47ccc5c01599477e9053e9",
-                "reference": "d9198ee04f5fa8a14c47ccc5c01599477e9053e9",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/f319dc0f866fcedde621e1150485d4e40516e88d",
+                "reference": "f319dc0f866fcedde621e1150485d4e40516e88d",
                 "shasum": ""
             },
             "require": {
                 "composer-runtime-api": "^2.2",
                 "fakerphp/faker": "^1.21",
-                "laravel/framework": ">=10.8.0 <10.11.0",
+                "laravel/framework": ">=10.8.0 <10.14.0",
                 "mockery/mockery": "^1.5.1",
                 "orchestra/testbench-core": ">=8.5.0 <8.6.0",
                 "php": "^8.1",
@@ -2213,9 +2213,9 @@
             ],
             "support": {
                 "issues": "https://github.com/orchestral/testbench/issues",
-                "source": "https://github.com/orchestral/testbench/tree/v8.5.2"
+                "source": "https://github.com/orchestral/testbench/tree/v8.5.5"
             },
-            "time": "2023-05-09T13:12:17+00:00"
+            "time": "2023-05-30T08:19:18+00:00"
         },
         {
             "name": "orchestra/testbench-core",
@@ -2807,16 +2807,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "dev-main",
+            "version": "10.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "302327c97ae9244ae99255b5ea9efa2c6032cb69"
+                "reference": "1c17815c129f133f3019cc18e8d0c8622e6d9bcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/302327c97ae9244ae99255b5ea9efa2c6032cb69",
-                "reference": "302327c97ae9244ae99255b5ea9efa2c6032cb69",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1c17815c129f133f3019cc18e8d0c8622e6d9bcd",
+                "reference": "1c17815c129f133f3019cc18e8d0c8622e6d9bcd",
                 "shasum": ""
             },
             "require": {
@@ -2850,7 +2850,6 @@
             "suggest": {
                 "ext-soap": "To be able to generate mocks based on WSDL files"
             },
-            "default-branch": true,
             "bin": [
                 "phpunit"
             ],
@@ -2889,7 +2888,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/main"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.2.6"
             },
             "funding": [
                 {
@@ -2905,7 +2904,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-09T06:56:12+00:00"
+            "time": "2023-07-17T12:08:28+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -7623,9 +7622,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "phpunit/phpunit": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

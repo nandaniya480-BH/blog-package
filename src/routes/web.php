@@ -1,6 +1,5 @@
 <?php
 
-use Nandaniya480\Blog\Controllers\InspirationController;
 use Illuminate\Support\Facades\Route;
 use Nandaniya480\Blog\Controllers\BlogController;
 
