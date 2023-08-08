@@ -13,13 +13,6 @@ use Nandaniya480\Blog\Response;
 
 class BlogController
 {
-    public function justDoIt()
-    {
-        $data = Http::get('https://api.goprogram.ai/inspiration/');
-        $quote = $data['quote'] . ' -' . $data['author'];
-        return view('Blog::index', compact('quote'));
-    }
-
     public function index()
     {
         $blog = Blog::all();

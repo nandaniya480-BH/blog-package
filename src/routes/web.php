@@ -3,13 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Nandaniya480\Blog\Controllers\BlogController;
 
-Route::prefix('api')->group(function () {
-    Route::get('welcome', function () {
-        return view('Blog::welcome');
-    });
-
-    Route::get('justDoIt', [BlogController::class, 'justDoIt']);
-    
+Route::prefix('api')->group(function () {    
     Route::ApiResources([
         'blog' => BlogController::class,
     ]);
